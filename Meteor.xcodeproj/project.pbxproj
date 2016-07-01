@@ -14,6 +14,8 @@
 		270B7D9E1D1EEC7800CDD287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B7D9C1D1EEC7800CDD287 /* LaunchScreen.storyboard */; };
 		270B7DA91D1EEC7800CDD287 /* MeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7DA81D1EEC7800CDD287 /* MeteorTests.swift */; };
 		270B7DB41D1EEC7800CDD287 /* MeteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7DB31D1EEC7800CDD287 /* MeteorUITests.swift */; };
+		270B7DC41D1EF33100CDD287 /* MeteorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7DC31D1EF33100CDD287 /* MeteorCell.swift */; };
+		270B7DC81D1FE16C00CDD287 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7DC71D1FE16C00CDD287 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		270B7DAF1D1EEC7800CDD287 /* MeteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B7DB31D1EEC7800CDD287 /* MeteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorUITests.swift; sourceTree = "<group>"; };
 		270B7DB51D1EEC7800CDD287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B7DC31D1EF33100CDD287 /* MeteorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorCell.swift; sourceTree = "<group>"; };
+		270B7DC71D1FE16C00CDD287 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				270B7D931D1EEC7800CDD287 /* AppDelegate.swift */,
 				270B7D951D1EEC7800CDD287 /* ViewController.swift */,
+				270B7DC31D1EF33100CDD287 /* MeteorCell.swift */,
+				270B7DC71D1FE16C00CDD287 /* SwiftyJSON.swift */,
 				270B7D971D1EEC7800CDD287 /* Main.storyboard */,
 				270B7D9A1D1EEC7800CDD287 /* Assets.xcassets */,
 				270B7D9C1D1EEC7800CDD287 /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B7DC41D1EF33100CDD287 /* MeteorCell.swift in Sources */,
 				270B7D961D1EEC7800CDD287 /* ViewController.swift in Sources */,
 				270B7D941D1EEC7800CDD287 /* AppDelegate.swift in Sources */,
+				270B7DC81D1FE16C00CDD287 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				270B7DBA1D1EEC7800CDD287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		270B7DBB1D1EEC7800CDD287 /* Build configuration list for PBXNativeTarget "MeteorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				270B7DBD1D1EEC7800CDD287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		270B7DBE1D1EEC7800CDD287 /* Build configuration list for PBXNativeTarget "MeteorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				270B7DC01D1EEC7800CDD287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

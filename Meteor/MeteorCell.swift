@@ -6,8 +6,13 @@
 //  Copyright © 2016 Mathieu Mailfert. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class MeteorCell: UITableViewCell {
+    
+    @IBOutlet weak var iconImage: UIImageView!
+    @IBOutlet weak var dateLabel: UILabel!
 
+    @IBOutlet weak var tempLabel: UILabel!
+    @IBOutlet weak var humidityLabel: UILabel!
 }
